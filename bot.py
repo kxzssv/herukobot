@@ -10,9 +10,9 @@ except:pass
 logging.basicConfig(level=logging.INFO)
 
 try:
-    API_ID = int(os.environ.get("API_ID", 6))
-    API_HASH = os.environ.get("API_HASH", None)
-    TOKEN = os.environ.get("TOKEN", None)
+    API_ID = int(os.environ.get("20506971", 6))
+    API_HASH = os.environ.get("ede9fc756b24e2dfd2a8a44a6ae8af47", None)
+    TOKEN = os.environ.get("6220933032:AAGeWgkKmGI_sFfiwAMt9EEDTE9_JRSJuSQ", None)
 except ValueError:
     print("You forgot to fullfill vars")
     print("Bot is quitting....")
